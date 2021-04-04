@@ -9,6 +9,7 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 
 - **Findings & Conclusion:**
 
-| 表格      | 第一列     | 第二列     |
+| Framework/Diff     | Model Bulding     | 第二列     |
 | ---------- | :-----------:  | :-----------: |
-| 第一行     | 第一列     | 第二列     |
+| Pytorch    | 第一列     | 第二列     |
+| Jax    | 第一列     | 第二列     |
