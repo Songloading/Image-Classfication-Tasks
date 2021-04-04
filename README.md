@@ -11,5 +11,5 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 
 | Framework/Diff     | Model Bulding     | 第二列     |
 | ---------- | :-----------:  | :-----------: |
-| Pytorch    | - model is a class <br> - Define each layer as variables and go through each layer in the foward function    | 第二列     |
+| Pytorch    | - Model is a class <br> - Define each layer as variables  <br> - Foward Function manually go through each layer   | 第二列     |
 | Jax    | 第一列     | 第二列     |
