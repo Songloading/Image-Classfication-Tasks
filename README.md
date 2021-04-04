@@ -8,6 +8,7 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Learning Outcomes:** Finish using Pytorch and Jax to build a Lenet-5 model to do image classification tasks.
 
 - **Findings & Conclusion:**
+
 | 表格      | 第一列     | 第二列     |
 | ---------- | :-----------:  | :-----------: |
 | 第一行     | 第一列     | 第二列     |
