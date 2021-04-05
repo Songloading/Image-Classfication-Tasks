@@ -10,6 +10,6 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Findings & Conclusion:**
 
 | Framework/Diff     | Model Bulding     | Model Training     | Others |
-| ---------- | :-----------:  | :-----------: |
+| ---------- | :-----------:  | :-----------: | :-----------: |
 | Pytorch    | - Model is a class <br> - Define each layer as variables  <br> - Foward Function manually goes through each layer   | - Has dataloader that can be enumerate <br> - Usually use built-in loss function <br>  - Usually we call **optimizer.step()** to update   | - Provide plenty of datasets |
 | Jax    | - Model is treated as a function <br> - **stax** for example returns model parameters and foward function     | - Has to define data_stream method <br>   - Has to self-define loss function <br> - Update each batch state and pass to the next   | - Has to manually define dataset |
