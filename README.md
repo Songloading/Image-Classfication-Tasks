@@ -21,3 +21,7 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - - https://syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/getting-started
 - - https://github.com/denizyuret/Knet.jl/tree/master/tutorial
 - **Learning Outcomes:** Finish using Julia and Knet building Lenet5 and classify MNIST data.
+- **Findings & Conclusion:**
+- - Julia is very similar to Python
+- - Package Reference is not very clear
+- - It can be very easy and clear to build each layer of NN by using the Julia Constructor
