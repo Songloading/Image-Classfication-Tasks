@@ -18,3 +18,4 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 ### **Week 2**
 - **Learning Objectives:** Getting started on Julia and corresponding libraries.
 - **Material:** https://syl1.gitbook.io/julia-language-a-concise-tutorial/language-core/getting-started
+- - **Learning Outcomes:** Finish using Julia and Knet building Lenet5 and classify MNIST data.
