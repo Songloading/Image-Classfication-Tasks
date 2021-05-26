@@ -25,6 +25,7 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - - Julia is very similar to Python
 - - Package Reference is not very clear
 - - It can be very easy and clear to build each layer of NN by using the Julia Constructor
-- 
+
 ### **Week 3**
 - **Learning Objectives:** Try to load self-defined data to each of the three previous learned pipeline.
+- **Learning Outcomes:** Finish using Julia, Pytorch, and Knet to load custome dataset.
