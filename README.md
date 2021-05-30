@@ -33,4 +33,4 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 ### **Week 4-10: Classify the X-Ray dataset using different models w/ high accuracies**
 - **Outline:** The
 - **Reference & Resources:**
-  https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
+  <br /> https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
