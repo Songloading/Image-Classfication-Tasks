@@ -34,4 +34,4 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Outline:** The
 - **Reference & Resources:**
   <br /> https://www.kaggle.com/nih-chest-xrays/data 
-  https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
+  <br /> https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
