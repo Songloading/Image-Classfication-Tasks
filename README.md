@@ -31,7 +31,10 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Learning Outcomes:** Finish using Julia, Pytorch, and Knet to load custome dataset.
 
 ### **Week 4-10: Classify the X-Ray dataset using different models w/ high accuracies**
-- **Outline:** The
+- **Outline:** The NIH Chest X-rays dataset is composed of about 110,000 chest X-ray images with 15 classes (14 diseases, and one for "No findings"). We are going to build/utilize different models to perform classification.
+- **Dataset & Preparation:**
+- **Experiment 1:**
+- **Experiment 2:**
 - **Reference & Resources:**
   <br /> https://www.kaggle.com/nih-chest-xrays/data 
   <br /> https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
