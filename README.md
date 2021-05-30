@@ -31,5 +31,5 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Learning Outcomes:** Finish using Julia, Pytorch, and Knet to load custome dataset.
 
 ### **Week 4-10: Classify the X-Ray dataset using different models w/ high accuracies**
-
+- **Outline:** The
 - **Reference & Resources:**
