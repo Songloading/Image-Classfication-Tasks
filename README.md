@@ -32,3 +32,4 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 
 ### **Week 4-10: Classify the X-Ray dataset using different models w/ high accuracies**
 
+- **Reference & Resources:**
