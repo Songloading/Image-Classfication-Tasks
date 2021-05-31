@@ -35,9 +35,9 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Dataset & Preparation:**
 - **Experiment 1:**
 - -Model: Pytorch pretrained Resnet50
-- -Trainable Layers: Layer2-4 and FC
-- -# of Classes: 2(Positive or Negative)
-- -Best Achieved Accuracy:
+  - - Trainable Layers: Layer2-4 and FC
+  - - # of Classes: 2(Positive or Negative)
+  - - Best Achieved Accuracy:
 - **Experiment 2:**
 - **Reference & Resources:**
   <br /> https://www.kaggle.com/nih-chest-xrays/data 
