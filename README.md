@@ -34,7 +34,7 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
 - **Outline:** The NIH Chest X-rays dataset is composed of about 110,000 chest X-ray images with 15 classes (14 diseases, and one for "No findings"). We are going to build/utilize different models to perform classification.
 - **Dataset & Preparation:**
 - **Experiment 1:**
-- -Model: Pytorch pretrained Resnet50
+  - Model: Pytorch pretrained Resnet50
   - Trainable Layers: Layer2-4 and FC
   - Number of Classes: 2(Positive or Negative)
   - Best Achieved Accuracy:
