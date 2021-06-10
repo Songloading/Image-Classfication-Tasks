@@ -32,6 +32,33 @@
 - **Outline:** 
 <br />The NIH Chest X-rays dataset is composed of about 110,000 chest X-ray images with 15 classes (14 diseases, and one for "No findings"). We are going to build/utilize different models to perform classification.
 - **Dataset & Preparation:**
+<br />For loading data only, Zipfile is an easy way to load data. You probably do not want to unzip the whole dataset (~90G) if you do not plan to train.
+The code below will help you orient all the data paths and, assuming you want to do binary classification, truning lables into binary.
+```python
+ zf = z.ZipFile(data_path) 
+ df = pd.read_csv(zf.open('Data_Entry_2017.csv')) # load paths&labels
+ 
+ img_name = df.iloc[1, 0]
+ df = df.loc[:, "Image Index":"Finding Labels"]
+
+ # Data Preparation
+ img_paths = {os.path.basename(name): name for name in zf.namelist() if name.endswith('.png')}
+ df['path'] = df['Image Index'].map(img_paths.get)
+ df.drop(['Image Index'], axis=1,inplace = True) # keep path and labels only
+
+ # Make the data binary
+ labels = df.loc[:,"Finding Labels"]
+ one_hot = []
+ for i in labels:
+    if i == "No Finding":
+         one_hot.append(0)
+    else:
+         one_hot.append(1)
+ one_hot_series = pd.Series(one_hot)
+ one_hot_series.value_counts()
+ df['label'] = pd.Series(one_hot_series, index=df.index)
+ df.drop(['Finding Labels'], axis=1,inplace = True)
+```
 - **Experiment 1:**
   - Model: Pytorch pretrained Resnet50
   - Trainable Layers: Layer2-4 and FC
