@@ -37,8 +37,12 @@ The goal for this repo is to keep a record of COMP_SCI 499 Project for each week
   - Model: Pytorch pretrained Resnet50
   - Trainable Layers: Layer2-4 and FC
   - Number of Classes: 2(Positive or Negative)
-  - Best Achieved Accuracy:
+  - Best Achieved Accuracy: .93
 - **Experiment 2:**
+  - Model: ChexNet
+  - Trainable Layers: All
+  - Number of Classes: 15 (14 Diseases and 1 No Finding)
+  - Best Achieved Accuracy:
 - **Reference & Resources:**
   <br /> https://www.kaggle.com/nih-chest-xrays/data 
   <br /> https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
