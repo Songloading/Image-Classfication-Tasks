@@ -59,6 +59,15 @@ The code below will help you orient all the data paths and, assuming you want to
  df['label'] = pd.Series(one_hot_series, index=df.index)
  df.drop(['Finding Labels'], axis=1,inplace = True)
 ```
+If you print the data frame, you should see something like this:
+```r
+                                 path  label
+0  images_001/images/00000001_000.png      1
+1  images_001/images/00000001_001.png      1
+2  images_001/images/00000001_002.png      1
+3  images_001/images/00000002_000.png      0
+4  images_001/images/00000003_000.png      1
+```
 - **Experiment 1:**
   - Model: Pytorch pretrained Resnet50
   - Trainable Layers: Layer2-4 and FC
