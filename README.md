@@ -30,7 +30,7 @@
 
 ### **Week 4-10: Classify the X-Ray dataset using different models w/ high accuracies**
 - **Outline:** 
- //The NIH Chest X-rays dataset is composed of about 110,000 chest X-ray images with 15 classes (14 diseases, and one for "No findings"). We are going to build/utilize different models to perform classification.
+ /The NIH Chest X-rays dataset is composed of about 110,000 chest X-ray images with 15 classes (14 diseases, and one for "No findings"). We are going to build/utilize different models to perform classification.
 - **Dataset & Preparation:**
 - **Experiment 1:**
   - Model: Pytorch pretrained Resnet50
