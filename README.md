@@ -77,7 +77,11 @@ If you print the data frame, you should see something like this:
   - Model: ChexNet
   - Trainable Layers: All
   - Number of Classes: 15 (14 Diseases and 1 No Finding)
-  - Best Achieved Accuracy:
+  - Best Achieved Accuracy: .8
+- **Next Step:**
+  - Ensemble
+  - Hierarchical-Learning
+  - Label-smoothing
 - **Reference & Resources:**
   <br /> https://www.kaggle.com/nih-chest-xrays/data 
   <br /> https://jrzech.medium.com/reproducing-chexnet-with-pytorch-695ff9c3bf66
